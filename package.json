@@ -1,0 +1,26 @@
+{
+  "name": "t2s",
+  "version": "1.0.0",
+  "description": "",
+  "main": "t2s.js",
+  "scripts": {
+    "start": "node ./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syke-Jr/t2s.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syke-Jr/t2s/issues"
+  },
+  "homepage": "https://github.com/Syke-Jr/t2s#readme",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^0.3.0",
+    "deep-extend": "^0.6.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
