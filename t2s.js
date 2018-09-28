@@ -11,7 +11,7 @@ const text = 'Since she was little, Twilight had heard stories of Darklight Star
 const outputFile = 'D:\YouTube\t2s_test1.mp3';
 
 const request = {
-  audioConfig: {audioEncoding: 'LINEAR16', pitch: '-2.80', speakingRate: '1.38'	
+  audioConfig: {audioEncoding: 'LINEAR16', pitch: '-2.80', speakingRate: '1.38'}
   input: {text: text},
   voice: {languageCode: 'en-GB', name: 'en-GB-Wavenet-D'},
   audioConfig: {audioEncoding: 'MP3'},
